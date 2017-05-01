@@ -5,6 +5,7 @@ public class Employee {
 	private int salary;
 
 	public Employee() {
+		
 	}
 
 	Employee(String name, int salary) {
@@ -29,6 +30,6 @@ public class Employee {
 	}
 
 	public void getInformation() {
-		System.out.println( "이름:" + name + "연봉:" + salary );
+		System.out.print( "이름:" + name + "연봉:" + salary );
 	}
 }

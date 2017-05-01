@@ -1,23 +1,25 @@
 package prob03;
 
-public class DropShip {
+public class DropShip extends Unit{
 	// 현재 위치
 	private int x;
 	private int y; 
 	
-	void move( int x, int y ) { 
-		/* 지정된 위치로 이동 */ 
-	}
-	
-	void stop() { 
+//	void move( int x, int y ) { 
+//		/* 지정된 위치로 이동 */ 
+//	}
+	void stop() {   //부모클래스의 메소드를 오버라이딩
 		/* 현재 위치에 정지 */ 
 	}
-	
 	void load() {
 		/* 선택된 대상을 태운다.*/ 
 	}
-	
 	void unload() {
 		/* 선택된 대상을 내린다.*/ 
 	}
+	@Override
+	void move(int x,int y) { //부모클래스의 공통적인 부분을 오버라이딩
+		// TODO Auto-generated method stub
+	}
+	
 }

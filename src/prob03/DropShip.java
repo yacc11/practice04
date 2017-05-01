@@ -17,7 +17,6 @@ public class DropShip extends Unit{
 	void unload() {
 		/* 선택된 대상을 내린다.*/ 
 	}
-	@Override
 	void move(int x,int y) { //부모클래스의 공통적인 부분을 오버라이딩
 		// TODO Auto-generated method stub
 	}
